@@ -1,6 +1,6 @@
 # Spring AI [![build status](https://github.com/spring-projects/spring-ai/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/spring-projects/spring-ai/actions/workflows/continuous-integration.yml)
 
-TEST Welcome to the Spring AI project!
+Welcome to the Spring AI project!
 
 The Spring AI project provides a Spring-friendly API and abstractions for developing AI applications.
 
