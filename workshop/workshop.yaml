@@ -1,0 +1,25 @@
+name: Markdown Sample
+
+modules:
+    activate:
+    - workshop-overview
+    - setup-environment
+    - exercises/01-prepare
+    - exercises/02-installtap
+    - exercises/03-pinnipedauth
+    - exercises/04-workload
+    - exercises/05-tapgui
+    - exercises/06-supplychain
+    - exercises/07-applive
+    - exercises/08-accelerators
+    - exercises/09-Test-scan
+    - exercises/10-APIDocs
+    - exercises/11-metadatastore
+    - exercises/12-TechDocs
+    - exercises/13-security-analysis
+#    - exercises/14-tasadapter
+    - exercises/15-onboard-aoa
+    - exercises/16-api-portal
+    - exercises/17-bitnami-services
+    - exercises/15-Cleanup
+    - workshop-summary

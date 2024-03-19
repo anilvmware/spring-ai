@@ -1,0 +1,64 @@
+modules:
+    workshop-overview:
+        name: Contents Covered in this workshop
+        exit_sign: Next
+    setup-environment:
+        name: Workshop overview
+        exit_sign: Start Workshop
+    exercises/01-prepare:
+        name: Preparation to install TAP
+        exit_sign: Next
+    exercises/02-installtap:
+        name: Install TAP with full profile
+        exit_sign: Authentication
+    exercises/03-pinnipedauth:
+        name: Setup Authentication with pinniped
+        exit_sign: workload
+    exercises/04-workload:
+        name: Deploy workload
+        exit_sign: tapgui
+    exercises/05-tapgui:
+        name: TAP GUI – overview
+        exit_sign: supplychain
+    exercises/06-supplychain:
+        name: Explore Supplychain choreographers
+        exit_sign: AppLive
+    exercises/07-applive:
+        name: Explore application using applive view
+        exit_sign: Accelerators
+    exercises/08-accelerators:
+        name: Create an accelerator
+        exit_sign: Scan Test
+    exercises/09-Test-scan:
+        name: Scan Test
+        exit_sign: API
+    exercises/10-APIDocs:
+        name: API Docs
+        exit_sign: metadata-store
+    exercises/11-metadatastore:
+        name: Explore Metadata store
+        exit_sign: Tech Docs
+    exercises/12-TechDocs:
+        name: Tech Docs
+        exit_sign: Security Analysis
+    exercises/13-security-analysis:
+        name: Security Analysis
+        exit_sign: AOA
+    exercises/14-tasadapter:
+        name: Application Service Adapter
+        exit_sign: AOA
+    exercises/15-onboard-aoa:
+        name: Aria Operations for Apps
+        exit_sign: API Portal
+    exercises/16-api-portal:
+        name: API Portal
+        exit_sign: Bitnami Services
+    exercises/15-Cleanup:
+        name: Cleanup
+        exit_sign: Next
+    exercises/17-bitnami-services:
+        name: Bitami Services
+        exit_sign: Cleanup
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop
