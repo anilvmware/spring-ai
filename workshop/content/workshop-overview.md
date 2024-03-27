@@ -38,8 +38,11 @@ Note, the new Spring CLI project lets you get up and running in two simple steps
 ```execute
 curl --fail -sL -o spring-cli-0.8.1.zip https://github.com/spring-projects/spring-cli/releases/download/v0.8.1/spring-cli-0.8.1.zip
 unzip spring-cli-0.8.1.zip
+```
+Add spring cli binary to the PATH
+```execute
 export SPRING_HOME=/home/eduk8s/spring-cli-0.8.1
-set PATH=$PATH:$SPRING_HOME/bin
+export PATH=$PATH:$SPRING_HOME/bin
 ```
 Check the Spring CLI version
 ```execute 
