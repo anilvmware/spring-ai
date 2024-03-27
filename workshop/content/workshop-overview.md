@@ -34,8 +34,21 @@ Some selected videos.  Search YouTube! for more.
 Please refer to the [Getting Started Guide](https://docs.spring.io/spring-ai/reference/getting-started.html) for instruction on adding your dependencies.
 
 Note, the new Spring CLI project lets you get up and running in two simple steps, [described in detail here](https://docs.spring.io/spring-ai/reference/getting-started.html#spring-cli).
-1. Install Spring CLI
-2. Type `spring boot new --from ai --name myai` in your terminal
+##Install Spring CLI
+```execute
+curl --fail -sL -o spring-cli-0.8.1.zip https://github.com/spring-projects/spring-cli/releases/download/v0.8.1/spring-cli-0.8.1.zip
+unzip spring-cli-0.8.1.zip
+export SPRING-HOME=$HOME/spring-cli-0.8.1
+set PATH=$PATH:$SPRING-HOME/bin
+```
+Check the Spring CLI version
+```execute 
+spring version
+```
+## Add a new spring CLI project
+```execute
+spring boot new --from ai --name myai
+```
 
 
 ### Adding Dependencies manually
